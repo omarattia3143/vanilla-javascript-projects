@@ -1,0 +1,22 @@
+*{
+    font-family: 'Common Pixel', sans-serif;
+}
+.blinking{
+    animation:blinkingText 400ms infinite;
+}
+.middle-align{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+@keyframes blinkingText{
+    0%{     color: black;    }
+    20%{     color: yellow;    }
+    49%{    color: red; }
+    60%{    color:  greenyellow; }
+    99%{    color:mediumvioletred;  }
+    100%{   color: cyan;    }
+}
+
+body{
+    background-color: black;
+}
